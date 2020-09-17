@@ -1,0 +1,31 @@
+body{
+    font-family: sans-serif, helvetica, arial;
+}
+hr {
+    border: solid lightgray;
+}
+img {
+    margin: 10pt;
+}
+section.product {
+    display: flex;
+}
+img.product {
+    display: inline-block;
+}
+div.product {
+    display: inline-block;
+    vertical-align: top;
+}
+h3.description {
+    margin-bottom: 0pt;
+}
+p.description {
+    margin-top: 5pt;
+}
+h4.region {
+    margin-bottom: 0pt;
+}
+p.region {
+    margin-top: 5pt;
+}
