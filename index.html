@@ -7,6 +7,17 @@
         <meta name="author" content="https://robertozunica.com">
         <meta name="keywords" content="Alessandro, alessandro, Zunica, zunica, Alessandro Zunica, alessandro zunica, Alessandro zunica, alessandro Zunica, Ezudea, ezudea, Prosecco, prosecco, Limoncello, limoncello, Leverancier, leverancier, Brugge, brugge, West Vlaanderen, west vlaanderen, West vlaanderen, west Vlaanderen, West-Vlaanderen, west-vlaanderen, West-vlaanderen, west-Vlaanderen, echte italiaanse limoncello, echt italiaanse prosecco">
         <meta name="description" content="Rechstreeks invoer en verkoop naar groothandels, drankcentralen, horecazaken ...">
+        <script>
+            function copyToClipboard(id) {
+                var from = document.getElementById(id);
+                var range = document.createRange();
+                window.getSelection().removeAllRanges();
+                range.selectNode(from);
+                window.getSelection().addRange(range);
+                document.execCommand('copy');
+                window.getSelection().removeAllRanges();
+            }
+        </script>
     </head>
     <body>
         <section class="hero-image">
@@ -82,6 +93,11 @@
                 <p class="region">Sanfeletto</p>
             </div>
         </section>
-        <hr/>
+        <footer>
+            <h1>Contact</h1>
+            <p class="contact">E-mail: <br/><a id="mail" target="blank" href="mailto: alessandro@ezudea.com">alessandro@ezudea.com</a><br/><button onclick="copyToClipboard('mail')">kopieer</button></p>
+            <br/>
+            <p class="contact">Telefoonnummer: <br/><a id="tel" target="blank" href="tel: +32 478 52 06 20">+32 478 52 06 20</a><br/><button onclick="copyToClipboard('tel')">kopieer</button></p>
+        </footer>
     </body>
 </html>

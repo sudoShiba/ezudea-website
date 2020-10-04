@@ -37,6 +37,7 @@ button {
     border: none;
     border-radius: 5pt;
     padding: 5pt;
+    cursor: pointer;
 }
 section.product {
     display: flex;
@@ -59,4 +60,28 @@ h4.region {
 }
 p.region {
     margin-top: 5pt;
+}
+footer {
+    color: white;
+    background-color: #5D5C61;
+    padding-left: 10pt;
+    padding-right: 10pt;
+    padding-top: 2pt;
+    padding-bottom: 2pt;
+}
+footer h1 {
+    text-align: center;
+}
+.contact {
+    size: 300%;
+    text-align: center;
+    display: block;
+}
+a {
+    text-decoration: underline;
+    color: inherit;
+    cursor: pointer;
+}
+a:hover {
+    color: darkgray;
 }
