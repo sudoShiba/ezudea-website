@@ -6,7 +6,7 @@ font-family: sans-serif, helvetica, arial;
 }
 .hero-image {
     height: 400pt;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("Producten.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url("Producten.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
