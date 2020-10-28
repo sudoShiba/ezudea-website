@@ -16,7 +16,6 @@ section {
     background-size: cover;
     position: relative;
     margin: 0%;
-
 }
 
 .hero-text {
@@ -27,7 +26,6 @@ section {
     transform: translate(-50%, -50%);
     color: white;
     font-size: 200%;
-
 }
 hr {
     border: solid lightgray;
@@ -43,6 +41,7 @@ button {
     border-radius: 5pt;
     padding: 5pt;
     cursor: pointer;
+    min-width: 125pt;
 }
 section.product {
     display: flex;
