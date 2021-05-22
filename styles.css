@@ -27,12 +27,15 @@ section {
     color: white;
     font-size: 200%;
 }
+
 hr {
     border: solid lightgray;
 }
+
 img {
     margin: 10pt;
 }
+
 button {
     background-color: darkgray;
     color: white;
@@ -43,28 +46,40 @@ button {
     cursor: pointer;
     min-width: 125pt;
 }
+
+.product {
+    display: flex
+}
+
 section.product {
     display: flex;
 }
+
 img.product {
     display: inline-block;
 }
+
 div.product {
     display: inline-block;
     vertical-align: top;
 }
+
 h3.description {
     margin-bottom: 0pt;
 }
+
 p.description {
     margin-top: 5pt;
 }
+
 h4.region {
     margin-bottom: 0pt;
 }
+
 p.region {
     margin-top: 5pt;
 }
+
 footer {
     color: white;
     background-color: #5D5C61;
@@ -73,19 +88,23 @@ footer {
     padding-top: 2pt;
     padding-bottom: 2pt;
 }
+
 footer h1 {
     text-align: center;
 }
+
 .contact {
     size: 300%;
     text-align: center;
     display: block;
 }
+
 a {
     text-decoration: underline;
     color: inherit;
     cursor: pointer;
 }
+
 a:hover {
     color: darkgray;
 }
