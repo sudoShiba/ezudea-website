@@ -3,8 +3,13 @@ html{
 }
 
 body{
+    background-color: hsl(0, 0%, 15%);
     font-family: sans-serif, helvetica, arial;
     margin: 0%;
+}
+
+.main {
+    display: felx;
 }
 
 section {
@@ -36,7 +41,7 @@ hr {
 }
 
 button {
-    background-color: rgb(18, 95, 0);
+    background-color: #4b7c41;
     color: white;
     text-align: center;
     border: none;
@@ -49,6 +54,7 @@ button {
 .img-container {
     display: flex;
     justify-content: center;
+
 }
 
 section.product {
