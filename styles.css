@@ -8,10 +8,6 @@ body{
     margin: 0%;
 }
 
-.main {
-    display: felx;
-}
-
 section {
     margin: 5pt;
 }
@@ -24,6 +20,7 @@ section {
     background-size: cover;
     position: relative;
     margin: 0%;
+    margin-bottom: 1rem;
 }
 
 .hero-text {
@@ -51,23 +48,60 @@ button {
     min-width: 125pt;
 }
 
+@media(max-width:540px) {
+    .main {
+        display: block;
+    }
+
+    section.product {
+        display: block;
+    }
+
+}
+
+@media(min-width:540px) {
+    .main {
+        display: grid;
+    }
+
+    section.product {
+        display: grid;
+        grid-template-columns: 15% 70%;
+    }
+
+}
+
+@media(min-width:1200px) {
+    .main {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        column-gap: 0.rem;
+    }
+
+    section.product {
+        display: grid;
+        grid-template-columns: 15% 70%;
+    }
+
+}
+
 .img-container {
     display: flex;
     justify-content: center;
-
+    align-items: center;
+    padding: 2rem 1rem;
 }
 
 section.product {
     background: #4b7c41;
     border-radius: 25pt;
-    display: grid;
     color: hsl(0, 0%, 15%);
-    grid-template-columns: 15% 70%;
-    margin: 10pt 5pt;
+    margin: .5rem .5rem;
 }
 
 div.product {
-    vertical-align: top;
+    margin: .5rem 1rem;
+    padding: 5pt 5pt;
 }
 
 h3.description {
@@ -93,6 +127,7 @@ footer {
     padding-right: 10pt;
     padding-top: 2pt;
     padding-bottom: 2pt;
+    margin-top: 1rem;
 }
 
 footer h1 {

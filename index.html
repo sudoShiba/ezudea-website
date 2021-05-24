@@ -18,6 +18,12 @@
                 document.execCommand('copy');
                 window.getSelection().removeAllRanges();
             }
+
+            
+            const date = new Date();
+            const year = date.getFullYear();
+            const span = document.getElementById("year");
+            span.innerHTML = year;
         </script>
     </head>
     <body>
@@ -90,7 +96,7 @@
             </section>
             <section class="product">
                 <div class="img-container">
-                <img src="roseNoir.png" height="350pt" class="product">
+                    <img src="roseNoir.png" height="350pt" class="product">
                 </div>
                 <div class="product">
                     <h1>Rosenoir Spumante Millesimato Brut</h1>
@@ -100,14 +106,29 @@
                     <p class="region">Veneto, Italië</p>
                     <h4 class="region">Producent</h4>
                     <p class="region">Sanfeletto</p>
-                </section>
-            </div>
+                </div>
+            </section>
+            <section class="product">
+                <div class="img-container">
+                    <img src="pesto.png" class="product" width="125px">
+                </div>
+                <div class="product">
+                    <h1>Pesto Genovese</h1>
+                    <h3 class="description">Over dit product</h3>
+                    <p class="description">Onze Pesto Genovese is een frisse saus afkomstig van de Ligurische smaken; daarom is het het belangrijkste ingrediënt in onze culinaire traditie geworden en ook de op een na meest gebruikte saus ter wereld. Onze Pesto Genovese wordt bereid volgens het traditionele recept, uitgaande van onze basilicum die in ons boerenbedrijf wordt verbouwd en waarbij alle andere ingrediënten zorgvuldig worden geselecteerd.</p>
+                    <h4 class="region">Regio van afkomst</h4>
+                    <p class="region">Genoa, Italië</p>
+                    <h4 class="region">Producent</h4>
+                    <p class="region">Il Pesto Di Pra</p>
+                </div>
+            </section>
         </div>
         <footer id="footer">
             <h1>Contact</h1>
             <p class="contact">E-mail: <br/><a id="mail" target="blank" href="mailto: ezudea2@gmail.com">ezudea2@gmail.com</a><br/><button onclick="copyToClipboard('mail')">kopieer</button></p>
             <br>
             <p class="contact">Telefoonnummer: <br><a id="tel" target="blank" href="tel: +32 478 52 06 20">+32 478 52 06 20</a><br/><button onclick="copyToClipboard('tel')">kopieer</button></p>
+            <p align="center">Made by Roberto Zunica <a href="https://robertozunica.net" target="blank_">robertozunica.net</a> - © <span id="year">2021</span></p>
         </footer>
     </body>
 </html>
