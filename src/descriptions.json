@@ -1,0 +1,18 @@
+{
+    "limoncello": {
+        "description": "Het is een bijzondere voorstelling van een Limoncello, vanwege het originele recept die nog steeds gebruikt wordt. De herkomst, de zorgvuldige selectie en de daaropvolgende verwerking van de citroenen is te vinden in zijn onmiskenbaar geur. Bij het drinken laat het verspreiden van de aroma een aangenaam en onvergetelijke smaak achter.",
+        "afkomst": "Campania, Italië",
+        "producent": "Fattorie Cilentale",
+        "formaten": ["20cl", "50cl", "70cl", "100cl",  "200cl"]
+    },
+    "brut": {
+        "description": "Dit type vertegenwoordigt een referentiepunt in het Prosecco Universum, gewaardeerd door kenners voor zijn finesse en gekenmerkt door een vloeiende perlage met een elegant appels bouquet. In de mond heerst een gevoel van verse zuurgraad in evenwicht door een droge en evenwichtige smaak.",
+        "afkomst": "Veneto, Italië",
+        "producent": "Sanfeletto"
+    },
+    "treviso brut": {
+        "description": "De perfecte balans tussen zuurgraad en suikers maken deze extra droge mousserende wijn uniek voor aangenaamheid. De bloemige en fruitige geur benadrukt door een aangenaam discrete beminnelijke noot, geeft het product elegantie en finesse. Mooie metgezel voor alle uren.",
+        "afkomst": "Veneto, Italië",
+        "producent": "Sanfeletto"
+    }
+}
