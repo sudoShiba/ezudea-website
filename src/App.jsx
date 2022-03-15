@@ -1,24 +1,27 @@
-import Product from "./product";
+// components
+import Product from "./components/product";
+import Hero from "./components/hero";
 
-import "./App.css";
-import "./general.css";
+// css
+import "./css/app.css";
+import "./css/general.css";
 import * as data from "./descriptions.json";
 
-const { limoncello, brut } = data;
-
+const { limoncello, proseccobrut } = data;
 
 function App() {
   return (
     <>
+      <Hero />
       <Product
         title="Limoncello Artigianale Fattorie Cilentane, Liquore di Limoni 30°"
-        img={require("./img/limoncello.png").default}
+        imgsrc={require("./img/limoncello.png")}
         description={limoncello.description}
       />
       <Product
         title="Conegliano-Valdobbiadene Prosecco Superiore Brut"
-        img="./img/prosseco.png"
-        description={brut.description}
+        imgsrc={require("./img/proseccoBrut.png")}
+        description={proseccobrut.description}
       />
     </>
   );
