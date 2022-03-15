@@ -3,7 +3,7 @@
         "description": "Het is een bijzondere voorstelling van een Limoncello, vanwege het originele recept die nog steeds gebruikt wordt. De herkomst, de zorgvuldige selectie en de daaropvolgende verwerking van de citroenen is te vinden in zijn onmiskenbaar geur. Bij het drinken laat het verspreiden van de aroma een aangenaam en onvergetelijke smaak achter.",
         "afkomst": "Campania, Italië",
         "producent": "Fattorie Cilentale",
-        "formaten": ["20cl", "50cl", "70cl", "100cl",  "200cl"],
+        "formaten": "20cl, 50cl, 70cl, 100cl,  200cl",
         "imgsrc": "./img/limoncello.png"
     },
     "proseccobrut": {

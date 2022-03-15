@@ -3,7 +3,7 @@ const Hero = () => {
         <header rel="preconnect">
             <div>
                 <h1 className="center">Ezudea</h1>
-                <h3 className="center"> Erkende Italiaanse invoerder</h3>
+                <p className="center XL"> Erkende Italiaanse invoerder</p>
             </div>
         </header>
     );

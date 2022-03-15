@@ -76,3 +76,6 @@
 
 .maxwidth { width: 100% }
 .maxheight { height: 100% }
+
+/* ---- hide ---- */
+.hide { display: none }
