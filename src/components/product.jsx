@@ -1,8 +1,10 @@
 import "../css/app.css";
 import "../css/general.css";
-import * as data from "../descriptions.json"
 
-const Product = ({ title, imgsrc, description, producent, formaten }) => {
+const data = require("../descriptions.json");
+
+const Product = ({ item, title,  imgsrc }) => {
+    const DisplayData = data[item];
     return (
         <section>
             <div className="center">
@@ -11,11 +13,11 @@ const Product = ({ title, imgsrc, description, producent, formaten }) => {
             <div>
                 <h1>{title}</h1>
                 <h3>Over dit product</h3>
-                <p>{description}</p>
+                <p>{DisplayData.description}</p>
                 <h4>Producent</h4>
-                <p>{producent}</p>
+                <p>{DisplayData.producent}</p>
                 <h4>Formaten</h4>
-                <p>{formaten}</p>
+                <p>{DisplayData.formaten}</p>
             </div>
         </section>
     );
