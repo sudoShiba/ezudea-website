@@ -1,21 +1,34 @@
 {
     "limoncello": {
+        "title": "Limoncello Artigianale Fattorie Cilentane, Liquore di Limoni 30°",
         "description": "Het is een bijzondere voorstelling van een Limoncello, vanwege het originele recept die nog steeds gebruikt wordt. De herkomst, de zorgvuldige selectie en de daaropvolgende verwerking van de citroenen is te vinden in zijn onmiskenbaar geur. Bij het drinken laat het verspreiden van de aroma een aangenaam en onvergetelijke smaak achter.",
         "afkomst": "Campania, Italië",
         "producent": "Fattorie Cilentale",
-        "formaten": "20cl, 50cl, 70cl, 100cl,  200cl",
-        "imgsrc": "./img/limoncello.png"
+        "formaten": "20cl, 50cl, 70cl, 100cl & 200cl",
+        "imgsrc": "../img/limoncello.png"
     },
     "proseccobrut": {
+        "title": "Conegliano-Valdobbiadene Prosecco Superiore Brut",
         "description": "Dit type vertegenwoordigt een referentiepunt in het Prosecco Universum, gewaardeerd door kenners voor zijn finesse en gekenmerkt door een vloeiende perlage met een elegant appels bouquet. In de mond heerst een gevoel van verse zuurgraad in evenwicht door een droge en evenwichtige smaak.",
         "afkomst": "Veneto, Italië",
         "producent": "Sanfeletto",
         "formaten": "TO DO",
-        "imgsrc": "./img/proseccoBrut.png"
+        "imgsrc": "../img/proseccoBrut.png"
     },
-    "treviso": {
+    "proseccotreviso": {
+        "title": "Colgentile Prosecco Treviso Brut",
         "description": "De perfecte balans tussen zuurgraad en suikers maken deze extra droge mousserende wijn uniek voor aangenaamheid. De bloemige en fruitige geur benadrukt door een aangenaam discrete beminnelijke noot, geeft het product elegantie en finesse. Mooie metgezel voor alle uren.",
         "afkomst": "Veneto, Italië",
-        "producent": "Sanfeletto"
+        "producent": "Sanfeletto",
+        "formaten": "TO DO",
+        "imgsrc": "../img/proseccoTreviso.png"
+    },
+    "proseccoextradry": {
+        "title": "Colgentile Prosecco Treviso Brut",
+        "description": "De meest bekende en gewaardeerde versie. Het onderscheidt zich door zijn aroma dat doet denken aan honing, blauweregen bloemen, appel. Naar de smaak herontdekken we deze geuren, benadrukt door een zeer aangename aimabele noot, waardoor het wordt uitnodigd tot elke gelegenheid.",
+        "afkomst": "Veneto, Italië",
+        "producent": "Sanfeletto",
+        "formaten":"TO DO",
+        "imgsrc": "../img/proseccoExtraDry.png"
     }
 }

@@ -1,10 +1,11 @@
 :root,
 html {
+    --background-color: #262626;
     /* font */
     font-family: sans-serif, Helvetica, arial;
 
     /* color */
-    background-color: #262626;
+    background-color: var(--background-color);
     color: white;
 }
 
@@ -37,7 +38,8 @@ header div h1 {
 }
 
 section {
-    /* background */
+    /* colors */
+    color: var(--background-color);
     background-color: #4b7c41;
 
     /* box model */
@@ -59,6 +61,8 @@ section div {
 section div img { height: 300pt }
 
 section h2, section h3, section h4 { margin-bottom: 0}
+
+section p { margin-top: 3pt }
 
 /* small screen */
 @media screen and (max-width: 600px) {

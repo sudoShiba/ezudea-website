@@ -10,18 +10,11 @@ function App() {
   return (
     <>
       <Hero />
-      <div className="products">
-        <Product
-          item="limoncello"
-          title="Limoncello Artigianale Fattorie Cilentane, Liquore di Limoni 30°"
-          imgsrc={require("./img/limoncello.png")}
-        />
-        <Product
-          item="proseccobrut"
-          title="Conegliano-Valdobbiadene Prosecco Superiore Brut"
-          imgsrc={require("./img/proseccoBrut.png")}
-        />
-      </div>
+      <main className="products">
+        <Product item="limoncello" />
+        <Product item="proseccobrut" />
+        <Product item="proseccoextradry" />
+      </main>
     </>
   );
 }
