@@ -1,7 +1,7 @@
 import "../css/app.css";
 import "../css/general.css";
 
-const data = require("../descriptions.json");
+const data = require("../productData.json");
 
 const Product = ({ item, title,  imgsrc }) => {
     const DisplayData = data[item];
