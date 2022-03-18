@@ -8,7 +8,7 @@ const Product = ({ item }) => {
     return (
         <section>
             <div className="center">
-                <img src={require(DisplayData.imgsrc)} alt={DisplayData.title} />
+                <img src={DisplayData.imgsrc} alt={DisplayData.title} />
             </div>
             <div>
                 <h1>{DisplayData.title}</h1>

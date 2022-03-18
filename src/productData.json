@@ -5,7 +5,7 @@
         "afkomst": "Campania, Italië",
         "producent": "Fattorie Cilentale",
         "formaten": "20cl, 50cl, 70cl, 100cl & 200cl",
-        "imgsrc": "../img/limoncello.png"
+        "imgsrc": "./img/limoncello.png"
     },
     "proseccobrut": {
         "title": "Conegliano-Valdobbiadene Prosecco Superiore Brut",
@@ -21,7 +21,7 @@
         "afkomst": "Veneto, Italië",
         "producent": "Sanfeletto",
         "formaten": "TO DO",
-        "imgsrc": "../img/proseccoTreviso.png"
+        "imgsrc": "./img/proseccoTreviso.png"
     },
     "proseccoextradry": {
         "title": "Colgentile Prosecco Treviso Brut",
@@ -29,6 +29,22 @@
         "afkomst": "Veneto, Italië",
         "producent": "Sanfeletto",
         "formaten":"TO DO",
-        "imgsrc": "../img/proseccoExtraDry.png"
+        "imgsrc": "./img/proseccoExtraDry.png"
+    },
+    "rosenoir": {
+        "title": "Rosenoir Spumante Millesimato Brut",
+        "description": "Onze Pesto Genovese is een frisse saus afkomstig van de Ligurische smaken; daarom is het het belangrijkste ingrediënt in onze culinaire traditie geworden en ook de op een na meest gebruikte saus ter wereld. Onze Pesto Genovese wordt bereid volgens het traditionele recept, uitgaande van onze basilicum die in ons boerenbedrijf wordt verbouwd en waarbij alle andere ingrediënten zorgvuldig worden geselecteerd.",
+        "afkomst": "Veneto, Italië",
+        "producent": "Sanfeletto",
+        "formaten": "TO DO",
+        "imgsrc": "./img/rosenoir.png"
+    },
+    "pesto": {
+        "title": "Pesto Genovese",
+        "description": "Onze Pesto Genovese is een frisse saus afkomstig van de Ligurische smaken; daarom is het het belangrijkste ingrediënt in onze culinaire traditie geworden en ook de op een na meest gebruikte saus ter wereld. Onze Pesto Genovese wordt bereid volgens het traditionele recept, uitgaande van onze basilicum die in ons boerenbedrijf wordt verbouwd en waarbij alle andere ingrediënten zorgvuldig worden geselecteerd.",
+        "afkomst": "Genoa, Italië",
+        "producent": "Il pesto di Pra",
+        "formaten": "TO DO",
+        "imgsrc": "./img/pesto.png"
     }
 }

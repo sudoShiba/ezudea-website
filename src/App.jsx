@@ -14,6 +14,9 @@ function App() {
         <Product item="limoncello" />
         <Product item="proseccobrut" />
         <Product item="proseccoextradry" />
+        <Product item="proseccotreviso" />
+        <Product item="rosenoir" />
+        <Product item="pesto" />
       </main>
     </>
   );
