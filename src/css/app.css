@@ -1,0 +1,110 @@
+:root,
+html {
+    --background-color: #262626;
+    --foreground-color: #4b7c41;
+    /* font */
+    font-family: sans-serif, Helvetica, arial;
+
+    /* color */
+    background-color: var(--background-color);
+    color: white;
+}
+
+header {
+    /* background */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/Producten.jpg");
+
+    /* size & positioning */
+    height: 400pt;
+    width: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header div {
+    position: relative;
+    top: 50%;
+}
+
+header div h1 {
+    font-size: 300%;
+    margin-top: 0;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+section {
+    /* colors */
+    color: var(--background-color);
+    background-color: var(--foreground-color);
+
+    /* box model */
+    margin: 10pt;
+    padding: 10pt;
+    border-radius: 20pt;
+
+    /* grid */
+    display: grid;
+    grid-template-columns: min-content 60%;
+}
+    
+
+section div {
+    margin: 10pt;
+    align-items: center;
+}
+
+section div img { height: 300pt }
+
+section h2, section h3, section h4 { margin-bottom: 0}
+
+section p { margin-top: 3pt }
+
+footer {
+    background-color: #608548;
+    color: white;
+
+    padding: 10pt;
+    padding-top: 5pt;
+
+    margin-top: 10pt;
+}
+
+footer a { color: darkgray }
+footer a:visited { color: darkgray }
+footer a:hover { color: lightgray}
+
+.author { margin-bottom: 0 }
+
+/* small screen */
+@media screen and (max-width: 600px) {
+    section {
+        max-width: 100%;
+        max-height: 100%;
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .products {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* big screen */
+@media screen and (min-width: 1500px) {
+    .products { grid-template-columns: 1fr 1fr 1fr }
+}
+
+/* giga screen */
+@media screen and (min-width: 2000px) {
+    .products { grid-template-columns: 25% 25% 25% 25% }
+}
