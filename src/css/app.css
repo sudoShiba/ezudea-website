@@ -1,6 +1,7 @@
 :root,
 html {
     --background-color: #262626;
+    --foreground-color: #4b7c41;
     /* font */
     font-family: sans-serif, Helvetica, arial;
 
@@ -40,7 +41,7 @@ header div h1 {
 section {
     /* colors */
     color: var(--background-color);
-    background-color: #4b7c41;
+    background-color: var(--foreground-color);
 
     /* box model */
     margin: 10pt;
@@ -63,6 +64,22 @@ section div img { height: 300pt }
 section h2, section h3, section h4 { margin-bottom: 0}
 
 section p { margin-top: 3pt }
+
+footer {
+    background-color: #608548;
+    color: white;
+
+    padding: 10pt;
+    padding-top: 5pt;
+
+    margin-top: 10pt;
+}
+
+footer a { color: darkgray }
+footer a:visited { color: darkgray }
+footer a:hover { color: lightgray}
+
+.author { margin-bottom: 0 }
 
 /* small screen */
 @media screen and (max-width: 600px) {

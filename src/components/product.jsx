@@ -23,6 +23,6 @@ const Product = ({ item }) => {
             </div>
         </section>
     );
-}
+};
 
 export default Product;
