@@ -1,5 +1,8 @@
+import React from "react";
+
 // components
 import Product from "./components/product";
+import Championship from "./components/championship";
 import Hero from "./components/hero";
 import Footer from "./components/footer";
 
@@ -11,13 +14,22 @@ function App() {
   return (
     <>
       <Hero />
-      <main className="products">
-        <Product item="limoncello" />
-        <Product item="proseccobrut" />
-        <Product item="proseccoextradry" />
-        <Product item="proseccotreviso" />
-        <Product item="rosenoir" />
-        <Product item="pesto" />
+      <main>
+        <h1 className="center">Artikelen</h1>
+        <section className="products">
+          <Product item="limoncello" />
+          <Product item="proseccobrut" />
+          <Product item="proseccoextradry" />
+          <Product item="proseccotreviso" />
+          <Product item="rosenoir" />
+          <Product item="roseblanc" />
+          <Product item="pesto" />
+        </section>
+        {/* TO DO
+        <h1 className="center">Kampioenschappen</h1>
+        <section>
+
+        </section>*/}
       </main>
       <Footer />
     </>
