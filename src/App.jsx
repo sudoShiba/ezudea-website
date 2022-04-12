@@ -2,7 +2,6 @@ import React from "react";
 
 // components
 import Product from "./components/product";
-import Championship from "./components/championship";
 import Hero from "./components/hero";
 import Footer from "./components/footer";
 
