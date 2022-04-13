@@ -10,6 +10,7 @@ html {
     color: white;
 }
 
+/* ---- header ---- */
 header {
     /* background */
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/Producten.jpg");
@@ -33,12 +34,14 @@ header div h1 {
     margin-top: 0;
 }
 
+
+/* ---- products ---- */
 .products {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(500pt, 1fr));
 }
 
-article {
+.products article {
     /* colors */
     color: var(--background-color);
     background-color: var(--foreground-color);
@@ -50,7 +53,7 @@ article {
 
     /* grid */
     display: grid;
-    grid-template-columns: min-content 60%;
+    grid-template-columns: fit-content(20%) fit-content(70%);
 }
     
 
@@ -59,12 +62,36 @@ article div {
     align-items: center;
 }
 
-article div img { height: 300pt }
+.products article img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 article h2, article h3, article h4 { margin-bottom: 0}
 
 article p { margin-top: 3pt }
 
+/* ---- products-small ---- */
+.products-small article {
+       /* colors */
+       color: var(--background-color);
+       background-color: var(--foreground-color);
+   
+       /* box model */
+       margin: 10pt;
+       padding: 10pt;
+       border-radius: 20pt;
+   
+       width: fit-content;
+       height: 150pt;
+
+       display: flex;
+}
+
+.products-small img { height: 100% }
+
+/* ---- footer ---- */
 footer {
     background-color: #608548;
     color: white;
@@ -82,8 +109,14 @@ footer a:hover { color: lightgray}
 .author { margin-bottom: 0 }
 
 /* small screen */
-@media screen and (max-width: 600px) {
-    article {
+@media screen and (max-width: 900px) {
+    .products {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .products article {
         max-width: 100%;
         max-height: 100%;
 
@@ -91,20 +124,9 @@ footer a:hover { color: lightgray}
         flex-wrap: wrap;
         justify-content: space-around;
     }
-
-    .products {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+    
+    .products img {
+        height: 50%;
     }
-}
 
-/* big screen */
-@media screen and (min-width: 1500px) {
-    .products { grid-template-columns: 1fr 1fr 1fr }
-}
-
-/* giga screen */
-@media screen and (min-width: 2000px) {
-    .products { grid-template-columns: 1fr 1fr 1fr 1fr }
 }

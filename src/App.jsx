@@ -2,8 +2,10 @@ import React from "react";
 
 // components
 import Product from "./components/product";
+import ProductSmall from "./components/productsmall";
 import Hero from "./components/hero";
 import Footer from "./components/footer";
+
 
 // css
 import "./css/app.css";
@@ -23,6 +25,13 @@ function App() {
           <Product item="rosenoir" />
           <Product item="roseblanc" />
           <Product item="pesto" />
+        </section>
+        <h1 className="center">Nieuw in het gamma</h1>
+        <section className="products-small">
+          <ProductSmall item="salsatartufata" />
+        </section>
+        <h1 className="center">Internationale erkenningen</h1>
+        <section>
         </section>
       </main>
       <Footer />

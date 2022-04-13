@@ -47,5 +47,13 @@
         "afkomst": "Genoa, Italië",
         "producent": "Il pesto di Pra",
         "imgsrc": "./img/pesto.png"
+    },
+    "salsatartufata": {
+        "title": "Salsa Tartufata 8%",
+        "description": "TO DO",
+        "afkomst": "Umbria, Italië",
+        "producent": "TO DO",
+        "imgsrc": "./img/salsatartufata.png",
+        "formaten": "80gr, 180gr, 500gr"
     }
 }
