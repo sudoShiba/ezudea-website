@@ -24,11 +24,6 @@ function App() {
           <Product item="roseblanc" />
           <Product item="pesto" />
         </section>
-        {/* TO DO
-        <h1 className="center">Kampioenschappen</h1>
-        <section>
-
-        </section>*/}
       </main>
       <Footer />
     </>

@@ -20,8 +20,6 @@ const Product = ({ item }) => {
                 <p>{DisplayData.afkomst}</p>
                 <h4>Producent</h4>
                 <p>{DisplayData.producent}</p>
-                <h4>{DisplayData.formaten.length > 5 ? "Formaten" : "Formaat"}</h4>
-                <p>{DisplayData.formaten}</p>
             </div>
         </article>
     );

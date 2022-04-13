@@ -79,3 +79,11 @@
 
 /* ---- hide ---- */
 .hide { display: none }
+
+/* ---- no-attr ---- */
+.no-attr {
+    margin: 0; 
+    border: none;
+    padding: 0;
+    outline: none;
+}
