@@ -11,7 +11,8 @@
         "description": "Dit type vertegenwoordigt een referentiepunt in het Prosecco Universum, gewaardeerd door kenners voor zijn finesse en gekenmerkt door een vloeiende perlage met een elegant appels bouquet. In de mond heerst een gevoel van verse zuurgraad in evenwicht door een droge en evenwichtige smaak.",
         "afkomst": "Conegliano-Valdobbiadene, Italië",
         "producent": "Sanfeletto",
-        "imgsrc": "../img/proseccoBrut.png"
+        "imgsrc": "../img/proseccoBrut.png",
+        "medal": "./img/silverProseccoBrut.png"
     },
     "proseccotreviso": {
         "title": "Colgentile Prosecco Treviso Brut & Extra Dry",
@@ -39,7 +40,8 @@
         "description": "Met een jonge en frisse geur van acaciabloemen en groene appel vergezeld van tonen van rozenblaadjes perzik en rode bessen. In de mond onthult deze Rosé een uitbundige zure frisheid, en een gevoel van fluweelzachte zachtheid en een delicate smaak die de reuksensaties opnieuw bevestigt. Uitstekend als aperitief en begeleider van gezellige bijeenkomsten, het past prachtig bij voorgerechten en voorgerechten van zee en land, zoals week- en schaaldieren, verse kazen, vis- of vegetarische risotto's, pastagerechten met delicate sauzen.",
         "afkomst": "Conegliano-Valdobbiadene, Italië",
         "producent": "Sanfeletto",
-        "imgsrc": "./img/roseblanc.png"
+        "imgsrc": "./img/roseblanc.png",
+        "medal": "./img/silverRoseblanc.png"
     },
     "pesto": {
         "title": "Pesto Genovese",

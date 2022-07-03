@@ -5,13 +5,13 @@ import "../css/general.css";
 
 const data = require("../productData.json");
 
-const Championship = ({ item }) => {
-    const DisplayData = data[item];
+const Award = ({ item }) => {
+    const DisplayData = data[item]
     return (
         <article>
-            <h2></h2>
+            <img src={DisplayData.medal} alt={DisplayData.title}/>
         </article>
     );
 };
 
-export default Championship;
+export default Award;

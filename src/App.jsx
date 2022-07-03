@@ -5,7 +5,7 @@ import Product from "./components/product";
 import ProductSmall from "./components/productsmall";
 import Hero from "./components/hero";
 import Footer from "./components/footer";
-
+import Award from "./components/award";
 
 // css
 import "./css/app.css";
@@ -32,6 +32,7 @@ function App() {
         </section>
         <h1 className="center">Internationale erkenningen</h1>
         <section>
+          <Award item="proseccobrut" />
         </section>
       </main>
       <Footer />
