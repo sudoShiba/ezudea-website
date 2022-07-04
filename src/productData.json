@@ -57,5 +57,9 @@
         "producent": "TO DO",
         "imgsrc": "./img/salsatartufata.png",
         "formaten": "80gr, 180gr, 500gr"
+    },
+    "sanpiero": {
+        "title": "SanPiero Rive di San Pietro di Feletto",
+        "medal": "./img/goldSanPiero.png"
     }
 }
