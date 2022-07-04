@@ -5,7 +5,7 @@ import Product from "./components/product";
 import ProductSmall from "./components/productsmall";
 import Hero from "./components/hero";
 import Footer from "./components/footer";
-
+import Award from "./components/award";
 
 // css
 import "./css/app.css";
@@ -31,7 +31,9 @@ function App() {
           <ProductSmall item="salsatartufata" />
         </section>
         <h1 className="center">Internationale erkenningen</h1>
-        <section>
+        <section className="awards">
+          <Award item="proseccobrut" />
+          <Award item="roseblanc" />
         </section>
       </main>
       <Footer />
