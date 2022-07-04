@@ -31,8 +31,9 @@ function App() {
           <ProductSmall item="salsatartufata" />
         </section>
         <h1 className="center">Internationale erkenningen</h1>
-        <section>
+        <section className="awards">
           <Award item="proseccobrut" />
+          <Award item="roseblanc" />
         </section>
       </main>
       <Footer />
