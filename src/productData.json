@@ -55,7 +55,7 @@
         "afkomst": "Genoa, Italië",
         "producent": "Il pesto di Pra",
         "imgsrc": "./img/pesto.png",
-        "url": "http://www.ilpestodipra.com/"
+        "url": "http://www.ilpestodipra.com"
     },
     "contenegroni": {
         "title": "Conte Negroni",
@@ -63,7 +63,7 @@
         "afkomst": "België",
         "producent": "Made out of 3 main ingredients we distilled from scratch: Gin, sweet vermouth and an Italian inspired bittersweet liquor. It is obtained from the infusion of a wide selection of aromatic plants, herbs and fruits, carefully selected with the focus on sustainable raw materials. A typical distinctive nose of bittersweet orange with subtle notes of Calamus Root and Quassia Wood. The 4 week minimum barrel ageing process enhances the flavors enourmously and has a more pleasant, less alcoholic taste. Preferably served on the Rocks, straight from the bottle into a tumbler glass with a zest of orange peel to finish off. Recognized by its vibrant, yet deep and darkened red color.",
         "imgsrc": "./img/conteNegroni.png",
-        "url": "http://conte-negroni.com/"
+        "url": "http://conte-negroni.com"
     },
     "salsatartufata": {
         "title": "Salsa Tartufata 8%",
