@@ -17,7 +17,6 @@ a {
     transition: 0.5s;
 }
 a:hover { color: #646464 }
-a:visited { color: var(--background-color) }
 
 
 /* ---- header ---- */
