@@ -1,6 +1,6 @@
 {
   "short_name": "Ezudea",
-  "name": "Ezudea Online",
+  "name": "Ezudea: erkende Italiaanse invoerder",
   "icons": [
     {
       "src": "favicon.ico",
@@ -30,6 +30,6 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
+  "theme_color": "#608548",
   "background_color": "#ffffff"
 }

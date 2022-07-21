@@ -24,6 +24,7 @@ function App() {
           <Product item="proseccotreviso" />
           <Product item="rosenoir" />
           <Product item="roseblanc" />
+          <Product item="contenegroni" />
           <Product item="pesto" />
         </section>
         <h1 className="center">Nieuw in het gamma</h1>

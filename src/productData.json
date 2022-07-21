@@ -4,7 +4,8 @@
         "description": "Het is een bijzondere voorstelling van een Limoncello, vanwege het originele recept die nog steeds gebruikt wordt. De herkomst, de zorgvuldige selectie en de daaropvolgende verwerking van de citroenen is te vinden in zijn onmiskenbaar geur. Bij het drinken laat het verspreiden van de aroma een aangenaam en onvergetelijke smaak achter.",
         "afkomst": "Campania, Italië",
         "producent": "Fattorie Cilentale",
-        "imgsrc": "./img/limoncello.png"
+        "imgsrc": "./img/limoncello.png",
+        "url": "http://fattoriecilentane.com"
     },
     "proseccobrut": {
         "title": "Prosecco DOCG Superiore Brut",
@@ -12,28 +13,32 @@
         "afkomst": "Conegliano-Valdobbiadene, Italië",
         "producent": "Sanfeletto",
         "imgsrc": "../img/proseccoBrut.png",
-        "medal": "./img/silverProseccoBrut.png"
+        "medal": "./img/silverProseccoBrut.png",
+        "url": "http://sanfeletto.it"
     },
     "proseccotreviso": {
         "title": "Colgentile Prosecco Treviso Brut & Extra Dry",
         "description": "De perfecte balans tussen zuurgraad en suikers maken deze extra droge mousserende wijn uniek voor aangenaamheid. De bloemige en fruitige geur benadrukt door een aangenaam discrete beminnelijke noot, geeft het product elegantie en finesse. Mooie metgezel voor alle uren.",
         "afkomst": "Conegliano-Valdobbiadene, Italië",
         "producent": "Sanfeletto",
-        "imgsrc": "./img/proseccoTreviso.png"
+        "imgsrc": "./img/proseccoTreviso.png",
+        "url": "http://sanfeletto.it"
     },
     "proseccoextradry": {
         "title": "Prosecco DOCG Superiore Extra Dry",
         "description": "De meest bekende en gewaardeerde versie. Het onderscheidt zich door zijn aroma dat doet denken aan honing, blauweregen bloemen, appel. Naar de smaak herontdekken we deze geuren, benadrukt door een zeer aangename aimabele noot, waardoor het wordt uitnodigd tot elke gelegenheid.",
         "afkomst": "Conegliano-Valdobbiadene, Italië",
         "producent": "Sanfeletto",
-        "imgsrc": "./img/proseccoExtraDry.png"
+        "imgsrc": "./img/proseccoExtraDry.png",
+        "url": "http://sanfeletto.it"
     },
     "rosenoir": {
         "title": "Rosénoir: Spumante Millesimato",
         "description": "Een uitstekende mousserende wijn voor elke gelegenheid van groot karakter en balans. Aangenaam als aperitief, bij een babbel, gecombineerd met fingerfood. Het geeft een delicate aroma van roze en bessen, met een schaduw van perzik en rode bessen.",
         "afkomst": "Conegliano-Valdobbiadene, Italië",
         "producent": "Sanfeletto",
-        "imgsrc": "./img/rosenoir.png"
+        "imgsrc": "./img/rosenoir.png",
+        "url": "http://sanfeletto.it"
     },
     "roseblanc": {
         "title": "Roséblanc: Prosecco DOCG 85% Pinot Noire 15%",
@@ -41,14 +46,24 @@
         "afkomst": "Conegliano-Valdobbiadene, Italië",
         "producent": "Sanfeletto",
         "imgsrc": "./img/roseblanc.png",
-        "medal": "./img/silverRoseblanc.png"
+        "medal": "./img/silverRoseblanc.png",
+        "url": "http://sanfeletto.it"
     },
     "pesto": {
         "title": "Pesto Genovese",
         "description": "Onze Pesto Genovese is een frisse saus afkomstig van de Ligurische smaken; daarom is het belangrijkste ingrediënt in onze culinaire traditie geworden en ook de op een na meest gebruikte saus ter wereld. Onze Pesto Genovese wordt bereid volgens het traditionele recept, uitgaande van onze basilicum die in ons boerenbedrijf wordt verbouwd en waarbij alle andere ingrediënten zorgvuldig worden geselecteerd.",
         "afkomst": "Genoa, Italië",
         "producent": "Il pesto di Pra",
-        "imgsrc": "./img/pesto.png"
+        "imgsrc": "./img/pesto.png",
+        "url": "http://www.ilpestodipra.com/"
+    },
+    "contenegroni": {
+        "title": "Conte Negroni",
+        "description": "",
+        "afkomst": "België",
+        "producent": "Made out of 3 main ingredients we distilled from scratch: Gin, sweet vermouth and an Italian inspired bittersweet liquor. It is obtained from the infusion of a wide selection of aromatic plants, herbs and fruits, carefully selected with the focus on sustainable raw materials. A typical distinctive nose of bittersweet orange with subtle notes of Calamus Root and Quassia Wood. The 4 week minimum barrel ageing process enhances the flavors enourmously and has a more pleasant, less alcoholic taste. Preferably served on the Rocks, straight from the bottle into a tumbler glass with a zest of orange peel to finish off. Recognized by its vibrant, yet deep and darkened red color.",
+        "imgsrc": "./img/conteNegroni.png",
+        "url": "http://conte-negroni.com/"
     },
     "salsatartufata": {
         "title": "Salsa Tartufata 8%",
@@ -56,10 +71,12 @@
         "afkomst": "Umbria, Italië",
         "producent": "TO DO",
         "imgsrc": "./img/salsatartufata.png",
-        "formaten": "80gr, 180gr, 500gr"
+        "formaten": "80gr, 180gr, 500gr",
+        "url": "http://tartufi-funghi.com"
     },
     "sanpiero": {
         "title": "SanPiero Rive di San Pietro di Feletto",
-        "medal": "./img/goldSanPiero.png"
+        "medal": "./img/goldSanPiero.png",
+        "url": "http://sanfeletto.it"
     }
 }

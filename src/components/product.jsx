@@ -18,6 +18,8 @@ const Product = ({ item }) => {
                 <p>{DisplayData.afkomst}</p>
                 <h4>Producent</h4>
                 <p>{DisplayData.producent}</p>
+                <h4>Website</h4>
+                <p><a href={DisplayData.url} rel="noreferrer" target="_blank">{DisplayData.url.substr(7)}</a></p>
             </div>
         </article>
     );
