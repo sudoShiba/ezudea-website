@@ -95,7 +95,7 @@ article p { margin-top: 3pt }
 
     max-width: fit-content;
 
-    display: flex;
+    display: inline-flex;
 }
 
 .products-small img { height: 150pt }

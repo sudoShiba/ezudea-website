@@ -25,11 +25,14 @@ function App() {
           <Product item="rosenoir" />
           <Product item="roseblanc" />
           <Product item="contenegroni" />
+          <Product item="contenogroni" />
+          <Product item="vermouth" />
           <Product item="pesto" />
         </section>
         <h1 className="center">Nieuw in het gamma</h1>
         <section className="products-small">
           <ProductSmall item="salsatartufata" />
+          <ProductSmall item="olioextravergine" />
         </section>
         <h1 className="center">Internationale erkenningen</h1>
         <section className="awards">

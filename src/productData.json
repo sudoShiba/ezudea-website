@@ -61,9 +61,32 @@
         "title": "Conte Negroni",
         "description": "Ezudea is de vertegenwoordiger van Conte Negroni van West-Vlaanderen. Gemaakt van 3 hoofdingrediënten die we vanaf nul gedistilleerd hebben: Gin, zoete vermouth en een Italiaans geïnspireerde bitterzoete likeur. Het wordt verkregen uit de infusie van een brede selectie van aromatische planten, kruiden en vruchten, zorgvuldig geselecteerd met de focus op duurzame grondstoffen. Een typische kenmerkende neus van bitterzoete sinaasappel met subtiele tonen van kalmoeswortel en quassiahout. De minimale vatrijping van 4 weken versterkt de smaken enorm en heeft een aangenamere, minder alcoholische smaak. Bij voorkeur geserveerd on the Rocks, rechtstreeks uit de fles in een tumbler glas met een schil van sinaasappelschil om het af te maken. Herkenbaar aan zijn levendige, maar diepe en donkerrode kleur.",
         "afkomst": "België",
-        "producent": "Conte Negroni",
+        "producent": "Epic Distillerie",
         "imgsrc": "./img/conteNegroni.png",
         "url": "http://conte-negroni.com"
+    },
+    "contenogroni": {
+        "title": "Conte Nogroni",
+        "description": "Nogroni, een baanbrekende creatie in de wereld van alcoholvrije dranken, brengt een geheel nieuwe dimensie van genot naar voren voor liefhebbers van verfijnde smaken. Deze innovatieve libatie is geïnspireerd op het klassieke Negroni-cocktailrecept, maar met een vernieuwde twist die alle kenmerkende elementen behoudt zonder de aanwezigheid van alcohol. Het resultaat is een meesterlijke harmonie van smaken, een feest voor de zintuigen dat de tradities van de klassieke cocktail eert en tegelijkertijd nieuwe horizonten verkent. Nogroni is het bewijs dat verfijning en genot hand in hand kunnen gaan zonder compromissen, en het biedt een uitnodiging om te genieten van een ongeëvenaarde ervaring die de grenzen van de alcoholvrije mixologie verlegt.",
+        "afkomst": "België",
+        "producent": "Epic Distillerie",
+        "imgsrc": "./img/conteNogroni.png",
+        "url": "http://conte-negroni.com"
+    },
+    "vermouth": {
+        "title": "Vermouth",
+        "description": "Niksmouth Vermouth vormt de kern van verfijning in onze mixologie en speelt een essentiële rol in onze befaamde Conte Negroni-cocktail. Gecreëerd met een meticuleuze aandacht voor detail, is deze White Dry Vermouth als een kunstzinnig doek waarop de complexe smaaklagen van onze gerenommeerde cocktail tot leven komen. Gemaakt op basis van verfijnde Franse Chardonnay-wijn, ondergaat Niksmouth Vermouth een maceratieproces met onze geheime mix van kruiden en specerijen. Dit resulteert in een droge vermouth met een florale neus, die zowel puur gedronken kan worden als kan schitteren in favoriete cocktails.",
+        "afkomst": "België",
+        "producent": "Epic Distillerie",
+        "imgsrc": "./img/vermouth.png",
+        "url": "http://conte-negroni.com"
+    },
+    "olioextravergine": {
+        "title": "Carletti Olio Extra Vergine Di Oliva",
+        "afkomst": "Italië",
+        "producent": "Carletti",
+        "imgsrc": "./img/olioExtraVergine.png",
+        "formaten": "5l, 75cl, 50cl"
     },
     "salsatartufata": {
         "title": "Salsa Tartufata 8%",
