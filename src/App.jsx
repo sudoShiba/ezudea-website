@@ -38,6 +38,7 @@ function App() {
         <section className="awards">
           <Award item="proseccoextradry" />
           <Award item="proseccobrut2" />
+          <Award item="proseccobrut3" />
           <Award item="sanpiero" />
           <Award item="proseccobrut" />
           <Award item="roseblanc" />
