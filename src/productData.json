@@ -13,7 +13,7 @@
         "afkomst": "Conegliano-Valdobbiadene, Italië",
         "producent": "Sanfeletto",
         "imgsrc": "../img/proseccoBrut.png",
-        "medal": "./img/silverProseccoBrut.png",
+        "award": "./img/silverProseccoBrut.png",
         "url": "http://sanfeletto.it"
     },
     "proseccotreviso": {
@@ -30,6 +30,7 @@
         "afkomst": "Conegliano-Valdobbiadene, Italië",
         "producent": "Sanfeletto",
         "imgsrc": "./img/proseccoExtraDry.png",
+        "award": "./img/silverExtraDry2024.png",
         "url": "http://sanfeletto.it"
     },
     "rosenoir": {
@@ -46,7 +47,7 @@
         "afkomst": "Conegliano-Valdobbiadene, Italië",
         "producent": "Sanfeletto",
         "imgsrc": "./img/roseblanc.png",
-        "medal": "./img/silverRoseblanc.png",
+        "award": "./img/silverRoseblanc.png",
         "url": "http://sanfeletto.it"
     },
     "pesto": {
@@ -99,7 +100,7 @@
     },
     "sanpiero": {
         "title": "SanPiero Rive di San Pietro di Feletto",
-        "medal": "./img/goldSanPiero.png",
+        "award": "./img/goldSanPiero.png",
         "url": "http://sanfeletto.it"
     }
 }

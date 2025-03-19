@@ -9,7 +9,7 @@ const Award = ({ item }) => {
     const DisplayData = data[item]
     return (
         <article>
-            <img src={DisplayData.medal} alt={DisplayData.title}/>
+            <img src={DisplayData.award} alt={DisplayData.title}/>
         </article>
     );
 };
