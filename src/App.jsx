@@ -37,7 +37,7 @@ function App() {
         <h1 className="center">Internationale erkenningen</h1>
         <section className="awards">
           <Award item="proseccoextradry" />
-          <Award item="sanpiero"/>
+          <Award item="sanpiero" />
           <Award item="proseccobrut" />
           <Award item="roseblanc" />
         </section>
