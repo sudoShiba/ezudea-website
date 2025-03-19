@@ -16,6 +16,15 @@
         "award": "./img/silverProseccoBrut.png",
         "url": "http://sanfeletto.it"
     },
+    "proseccobrut2": {
+        "title": "Prosecco DOCG Superiore Brut",
+        "description": "Dit type vertegenwoordigt een referentiepunt in het Prosecco Universum, gewaardeerd door kenners voor zijn finesse en gekenmerkt door een vloeiende perlage met een elegant appels bouquet. In de mond heerst een gevoel van verse zuurgraad in evenwicht door een droge en evenwichtige smaak.",
+        "afkomst": "Conegliano-Valdobbiadene, Italië",
+        "producent": "Sanfeletto",
+        "imgsrc": "../img/proseccoBrut.png",
+        "award": "./img/bronzeBrut2024.png",
+        "url": "http://sanfeletto.it"
+    },
     "proseccotreviso": {
         "title": "Colgentile Prosecco Treviso Brut & Extra Dry",
         "description": "De perfecte balans tussen zuurgraad en suikers maken deze extra droge mousserende wijn uniek voor aangenaamheid. De bloemige en fruitige geur benadrukt door een aangenaam discrete beminnelijke noot, geeft het product elegantie en finesse. Mooie metgezel voor alle uren.",
