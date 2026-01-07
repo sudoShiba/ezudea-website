@@ -35,12 +35,16 @@ header {
 
 header div {
     position: relative;
-    top: 50%;
+    top: 25%;
 }
 
-header div h1 {
+header div img {
     font-size: 300%;
     margin-top: 0;
+    height: 150pt;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 

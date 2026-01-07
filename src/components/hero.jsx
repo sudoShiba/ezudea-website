@@ -4,7 +4,7 @@ const Hero = () => {
     return (
         <header rel="preconnect">
             <div>
-                <h1 className="center">Ezudea</h1>
+                <img src="logo-white.svg" className="center" alt="Ezudea Logo" />
                 <p className="center XL"> Erkende Italiaanse invoerder</p>
             </div>
         </header>
