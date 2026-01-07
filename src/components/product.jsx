@@ -3,7 +3,7 @@ import React from "react";
 import "../css/app.css";
 import "../css/general.css";
 
-const data = require("../productData.json");
+import data from "../productData.json";
 
 const Product = ({ item }) => {
     const DisplayData = data[item];
