@@ -110,5 +110,32 @@
         "title": "SanPiero Rive di San Pietro di Feletto",
         "award": "./img/goldSanpiero.png",
         "url": "http://sanfeletto.it"
+    },
+    "politoElsirDiVenere" : {
+        "title": "Polito Elsir Di Venere",
+        "description": "Een fris en licht aperitief gemaakt van Fiano wijn en citrusvruchten. Hier heeft Patty iets eenvoudigs, moderns, lekker en verfrissend gecreëerd. Door de infusie van Fiano wijn en citrus krijgt de Venere Elisir (Venus) een zachte, aromatische smaak die perfect past bij elke apero moment.",
+        "afkomst": "Campania, Italië",
+        "producent": "Polito",
+        "imgsrc": "./img/elsirDiVenere.png",
+        "url": "https://www.politoviticoltori.com"
+    },
+    "politoElsirDiBacco": {
+        "title": "Polito Elsir Di Bacco",
+        "description": "Een verfijnde en verleidelijke likeur die ontstaat uit de infusie van sappige krieken en de Aglianico wijn uit Italië. Het resultaat is een exclusieve harmonieuze drank met zoete, en intense tonen van krieken. Een elegante, zachte likeur ideaal als digestief, aperitief of als verfijnde toets in creatieve mixology. Deze Bacco Likeur wordt in Italië ook graag geserveerd als dessert wijn bij nagerechten, ijs en ijstaarten.",
+        "afkomst": "Campania, Italië",
+        "producent": "Polito",
+        "imgsrc": "./img/elsirDiBacco.png",
+        "url": "https://www.politoviticoltori.com"
+    },
+    "politoElsirDiVenereDiBacco": {
+        "title": "Polito Elsir Di Venere & Di Bacco",
+        "title1": "Polito Elsir Di Venere",
+        "description1": "Een fris en licht aperitief gemaakt van Fiano wijn en citrusvruchten. Hier heeft Patty iets eenvoudigs, moderns, lekker en verfrissend gecreëerd. Door de infusie van Fiano wijn en citrus krijgt de Venere Elisir (Venus) een zachte, aromatische smaak die perfect past bij elke apero moment.",
+        "title2": "Polito Elsir Di Bacco",
+        "description2": "Een verfijnde en verleidelijke likeur die ontstaat uit de infusie van sappige krieken en de Aglianico wijn uit Italië. Het resultaat is een exclusieve harmonieuze drank met zoete, en intense tonen van krieken. Een elegante, zachte likeur ideaal als digestief, aperitief of als verfijnde toets in creatieve mixology. Deze Bacco Likeur wordt in Italië ook graag geserveerd als dessert wijn bij nagerechten, ijs en ijstaarten.",
+        "afkomst": "Campania, Italië",
+        "producent": "Polito",
+        "imgsrc": "./img/politoElsirDiVenereDiBacco.png",
+        "url": "https://www.politoviticoltori.com"
     }
 }

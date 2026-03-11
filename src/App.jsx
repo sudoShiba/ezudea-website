@@ -3,6 +3,7 @@ import React from "react";
 // components
 import Product from "./components/product";
 import ProductSmall from "./components/productsmall";
+import ProductLarge from "./components/productlarge";
 import Hero from "./components/hero";
 import Footer from "./components/footer";
 import Award from "./components/award";
@@ -28,6 +29,7 @@ function App() {
           <Product item="contenogroni" />
           <Product item="vermouth" />
           <Product item="pesto" />
+          <ProductLarge item="politoElsirDiVenereDiBacco" />
         </section>
         <h1 className="center">Nieuw in het gamma</h1>
         <section className="products-small">
