@@ -53,7 +53,7 @@ header div img {
 
 .products {
     display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(500pt, 1fr));
 }
 
 .products article {
@@ -199,10 +199,6 @@ footer a:hover { color: lightgray}
         justify-content: space-around;
     }
 
-    .products article.product-large {
-        width: 100%;
-    }
-    
     .products img {
         height: 50%;
     }
@@ -211,6 +207,7 @@ footer a:hover { color: lightgray}
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin: 10pt;
     }
 
     .awards img {
