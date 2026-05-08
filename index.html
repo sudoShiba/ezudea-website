@@ -4,18 +4,66 @@
     <meta charset="utf-8" />
     <link rel="icon" href="logo-green.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#608548" />
-    <meta
-      name="description"
-      content="Ezudea: erkende Italiaanse invoerder van schuimwijnen, likeuren en andere"
-    />
-    <link rel="apple-touch-icon" href="logo192.png" />
+    <meta name="theme-color" content="#4b7c41" />
+    
+    <!-- Primary Meta Tags -->
+    <title>Ezudea | Italiaanse Importeur van Schuimwijnen & Likeuren</title>
+    <meta name="title" content="Ezudea | Italiaanse Importeur van Schuimwijnen & Likeuren" />
+    <meta name="description" content="Ezudea is de erkende Italiaanse invoerder van hoogwaardige schuimwijnen, limoncello, pesto en exclusieve likeuren. Ontdek ons gamma uit de beste regio's van Italië." />
+    <meta name="keywords" content="Ezudea, Italiaanse importeur, schuimwijn, prosecco, limoncello, Italiaanse likeuren, West-Vlaanderen, Sanfeletto, Conte Negroni" />
+    <meta name="author" content="Ezudea" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://ezudea.be/" />
+    <meta property="og:title" content="Ezudea | Italiaanse Importeur van Schuimwijnen & Likeuren" />
+    <meta property="og:description" content="Erkende Italiaanse invoerder van hoogwaardige schuimwijnen, limoncello en meer. Ontdek authentieke Italiaanse smaken." />
+    <meta property="og:image" content="/img/Producten.jpg" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://ezudea.be/" />
+    <meta property="twitter:title" content="Ezudea | Italiaanse Importeur van Schuimwijnen & Likeuren" />
+    <meta property="twitter:description" content="Erkende Italiaanse invoerder van hoogwaardige schuimwijnen, limoncello en meer." />
+    <meta property="twitter:image" content="/img/Producten.jpg" />
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
     <link rel="manifest" href="manifest.json" />
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Ezudea",
+        "image": "https://ezudea.be/logo-green.svg",
+        "@id": "https://ezudea.be",
+        "url": "https://ezudea.be",
+        "telephone": "+32478520620",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "West-Vlaanderen",
+          "addressCountry": "BE"
+        },
+        "description": "Erkende Italiaanse invoerder van schuimwijnen, likeuren en ambachtelijke producten.",
+        "brand": {
+          "@type": "Brand",
+          "name": "Ezudea"
+        }
+      }
+    </script>
+
     <script type="module" src="/src/index.jsx"></script>
-    <title>Ezudea</title>
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <noscript>Je moet JavaScript inschakelen om deze website te bekijken.</noscript>
     <div id="root"></div>
+    <!-- Hidden form for Netlify bot detection -->
+    <form name="contact" data-netlify="true" method="POST" hidden>
+      <input type="hidden" name="subject" />
+      <input type="text" name="name" />
+      <input type="email" name="email" />
+      <textarea name="message"></textarea>
+    </form>
   </body>
 </html>

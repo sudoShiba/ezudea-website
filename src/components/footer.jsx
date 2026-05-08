@@ -1,15 +1,24 @@
 import React from "react";
 
-import "../css/app.css"
-import "../css/general.css"
-
 const Footer = () => {
     return (
-        <footer>
-            <h1 className="center">Contact</h1>
-            <p className="center"><a href="mailto:ezudea2@gmail.com">ezudea2@gmail.com</a></p>
-            <p className="center"><a href="tel:+32 478 52 06 20">+32 478 52 06 20</a></p>
-            <p className="center author">Made by Roberto Zunica <a href="https://robertozunica.dev">robertozunica.dev</a> - © 2025</p>
+        <footer className="bg-brand-dark py-8 px-4 border-t border-white/5">
+            <div className="max-w-4xl mx-auto text-center">
+                <div className="text-text-secondary text-sm">
+                    <p>
+                        Made by Roberto Zunica {' '}
+                        <a 
+                            href="https://robertozunica.dev" 
+                            target="_blank" 
+                            rel="noreferrer"
+                            className="text-text-secondary hover:text-text-link-hover transition-colors font-semibold"
+                        >
+                            robertozunica.dev
+                        </a>
+                        {' '} - © 2026 Ezudea
+                    </p>
+                </div>
+            </div>
         </footer>
     );
 };
